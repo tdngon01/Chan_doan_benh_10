@@ -1,0 +1,25 @@
+# pip list
+# pip show torch
+# pip uninstall -r requirements.txt -y
+# pip install -r requirements.txt
+
+# https://pytorch.org/get-started/locally/#windows-installation
+#python -c "import torch; print(torch.__version__); print(torch.cuda.is_available()); print(torch.cuda.device_count()); print(torch.version.cuda)"
+# pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
+# Tự tải cái này
+#pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu126
+Pillow>=9.0.0    
+scikit-image     
+numpy>=1.21.0
+pandas>=1.5.0
+scikit-learn>=1.2.0
+tensorboard
+tqdm             
+matplotlib              
+tensorboard
+peft
+grad-cam 
+opencv-python
+streamlit
+timm
+psutil

@@ -53,7 +53,7 @@ def main():
     df = df[['Image Index', 'Finding Labels', 'Patient ID']]
     df = df.rename(columns = {'Image Index': 'image_id'})
 
-    n_pretrain = 5000
+    n_pretrain = 25000
     df_pretrain = df.sample(n=n_pretrain, random_state=42).reset_index(drop=True)
     save_csv_path = r'data/train_csv/data_csv10/pre_train.csv'
     os.makedirs(os.path.dirname(save_csv_path), exist_ok=True)

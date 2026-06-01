@@ -78,7 +78,7 @@ class ContrastiveSimilarityTarget:
 
 def main():
     backbone_name = cfg.PRETRAIN_CONFIG["BACKBONE"]
-    checkpoint_path = os.path.join(cfg.CHECKPOINT_SAVE_PRETRAIN, "pretrain_moco_epoch_50.pth.tar")
+    checkpoint_path = os.path.join(cfg.CHECKPOINT_SAVE_PRETRAIN, "pretrain_moco_epoch_100.pth.tar")
     
     print(f"Khởi tạo mô hình: {backbone_name}")
     model, target_layers = get_backbone_model(backbone_name)

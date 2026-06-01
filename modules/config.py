@@ -41,7 +41,7 @@ class System_Config:
     NUM_CLASSES = len(CLASS_NAMES)
 
     PRETRAIN_CONFIG = {
-        "BACKBONE": "EfficientNet",  # EfficientNet, ResNet, DenseNet, MobileNet, GoogleNet, VGG16
+        "BACKBONE": "EfficientNet",  # VGG16, ResNet, DenseNet, MobileNet, GoogleNet, VGG16
         "PRE_TRAIN": 25000,
         "EPOCHS": 100,
         "BATCH_SIZE": 32,

@@ -170,62 +170,62 @@ def select_checkpoint():
 
     all_model_options = {
         "1.MoCo_LoRA_EfficientNet-B0": {
-            "path": os.path.join(CHECKPOINT_MOCO, "lora_finetune_EfficientNet", "42_lora_best_auc_0.9290.pth.tar"),
+            "path": os.path.join(CHECKPOINT_MOCO, "lora_finetune_EfficientNet", "46_lora_best_auc_0.9329.pth.tar"),
             "type": "lora",
             "backbone": "EfficientNet",
         },
         "2.MoCo_Full_EfficientNet-B0": {
-            "path": os.path.join(CHECKPOINT_MOCO, "full_finetune_EfficientNet", "27_full_best_auc_0.9309.pth.tar"),
+            "path": os.path.join(CHECKPOINT_MOCO, "full_finetune_EfficientNet", "37_full_best_auc_0.9329.pth.tar"),
             "type": "full",
             "backbone": "EfficientNet",
         },
         "3.MoCo_LoRA_MobileNet-V2": {
-            "path": os.path.join(CHECKPOINT_MOCO, "lora_finetune_MobileNet", "45_lora_best_auc_0.9281.pth.tar"),
+            "path": os.path.join(CHECKPOINT_MOCO, "lora_finetune_MobileNet", "45_lora_best_auc_0.9342.pth.tar"),
             "type": "lora",
             "backbone": "MobileNet",
         },
         "4.MoCo_Full_MobileNet-V2": {
-            "path": os.path.join(CHECKPOINT_MOCO, "full_finetune_MobileNet", "27_full_best_auc_0.9212.pth.tar"),
+            "path": os.path.join(CHECKPOINT_MOCO, "full_finetune_MobileNet", "48_full_best_auc_0.9249.pth.tar"),
             "type": "full",
             "backbone": "MobileNet",
         },
         "5.MoCo_LoRA_ResNet-18": {
-            "path": os.path.join(CHECKPOINT_MOCO, "lora_finetune_ResNet", "22_lora_best_auc_0.9252.pth.tar"),
+            "path": os.path.join(CHECKPOINT_MOCO, "lora_finetune_ResNet", "43_lora_best_auc_0.9323.pth.tar"),
             "type": "lora",
             "backbone": "ResNet",
         },
         "6.MoCo_Full_ResNet-18": {
-            "path": os.path.join(CHECKPOINT_MOCO, "full_finetune_ResNet", "50_full_best_auc_0.9272.pth.tar"),
+            "path": os.path.join(CHECKPOINT_MOCO, "full_finetune_ResNet", "19_full_best_auc_0.9291.pth.tar"),
             "type": "full",
             "backbone": "ResNet",
         },
         "7.MoCo_LoRA_DenseNet-121": {
-            "path": os.path.join(CHECKPOINT_MOCO, "lora_finetune_DenseNet", "37_lora_best_auc_0.9338.pth.tar"),
+            "path": os.path.join(CHECKPOINT_MOCO, "lora_finetune_DenseNet", "44_lora_best_auc_0.9361.pth.tar"),
             "type": "lora",
             "backbone": "DenseNet",
         },
         "8.MoCo_Full_DenseNet-121": {
-            "path": os.path.join(CHECKPOINT_MOCO, "full_finetune_DenseNet", "15_full_best_auc_0.9296.pth.tar"),
+            "path": os.path.join(CHECKPOINT_MOCO, "full_finetune_DenseNet", "48_full_best_auc_0.9293.pth.tar"),
             "type": "full",
             "backbone": "DenseNet",
         },
         "9.MoCo_LoRA_GoogleNet": {
-            "path": os.path.join(CHECKPOINT_MOCO, "lora_finetune_GoogleNet", "32_lora_best_auc_0.9249.pth.tar"),
+            "path": os.path.join(CHECKPOINT_MOCO, "lora_finetune_GoogleNet", "37_lora_best_auc_0.9322.pth.tar"),
             "type": "lora",
             "backbone": "GoogleNet",
         },
         "10.MoCo_Full_GoogleNet": {
-            "path": os.path.join(CHECKPOINT_MOCO, "full_finetune_GoogleNet", "35_full_best_auc_0.9230.pth.tar"),
+            "path": os.path.join(CHECKPOINT_MOCO, "full_finetune_GoogleNet", "49_full_best_auc_0.9233.pth.tar"),
             "type": "full",
             "backbone": "GoogleNet",
         },
         "11.MoCo_LoRA_VGG16": {
-            "path": os.path.join(CHECKPOINT_MOCO, "lora_finetune_VGG16", "20_lora_best_auc_0.9054.pth.tar"),
+            "path": os.path.join(CHECKPOINT_MOCO, "lora_finetune_VGG16", "16_lora_best_auc_0.9108.pth.tar"),
             "type": "lora",
             "backbone": "VGG16",
         },
         "12.MoCo_Full_VGG16": {
-            "path": os.path.join(CHECKPOINT_MOCO, "full_finetune_VGG16", "25_full_best_auc_0.9383.pth.tar"),
+            "path": os.path.join(CHECKPOINT_MOCO, "full_finetune_VGG16", "23_full_best_auc_0.9316.pth.tar"),
             "type": "full",
             "backbone": "VGG16",
         },
